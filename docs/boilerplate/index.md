@@ -1,4 +1,4 @@
-# Boilerplate
+## Boilerplate
 
 * [Vue](/boilerplate/vue.md)  
 * [Vue-Router](/boilerplate/vue-router.md)  

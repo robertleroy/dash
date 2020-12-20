@@ -13,4 +13,5 @@ features:
 - title: Memory
   details: Mine is aol.
 footer: MIT Licensed | Copyright © 2018-present Rob
+pageClass: custom-homepage-class
 ---

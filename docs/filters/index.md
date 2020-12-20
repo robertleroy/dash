@@ -1,3 +1,3 @@
-# Filters and Directives
+## Filters and Directives
 
 * [Copy](/filters/copy.md)  

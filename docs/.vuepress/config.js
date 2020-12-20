@@ -1,6 +1,8 @@
 module.exports = {
-  base: '/',
-  title: 'VuePress Classroom',
+  plugins: [['vuepress-plugin-code-copy', true]],
+  base: '/dash/',
+  logo: '/logo-18.png',
+  title: 'Dashboard',
   description: 'Just learing..',
 
   themeConfig: {
@@ -11,6 +13,7 @@ module.exports = {
       {text: 'Boilerplate', link: '/boilerplate/'},
       {text: 'Filters', link: '/filters/'},
       {text: 'Lorem', link: '/lorem/'},
+      {text: 'Gh-Pages', link: '/gh-pages/'},
     ],
     sidebar: [
       {        
@@ -32,6 +35,10 @@ module.exports = {
       {        
         title: 'Lorem',
         path: '/lorem/',
+      },
+      {        
+        title: 'Gh-Pages',
+        path: '/gh-pages/',
       }
     ],    
   }
@@ -52,6 +59,8 @@ function boilerplateLinks() {
     }
   ]
 }
+
+
 
 function filterLinks() {
   return [
