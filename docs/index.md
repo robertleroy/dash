@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /logo.svg
-heroText: Dev Dashboard
+heroText: Dashboard
 tagline: Boilerplate & Snippets
 actionText: init →
 actionLink: /boilerplate/
